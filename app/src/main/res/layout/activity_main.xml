@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Otras vistas o elementos pueden ir aquí -->
+
+
+    <!-- ConstraintLayout que contiene los dos primeros TextViews -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_margin="4dp">
+
+        <!-- Puedes añadir más elementos al ConstraintLayout si es necesario -->
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="139dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="72dp"
+            android:text="Score:"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toStartOf="@+id/textView19"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="139dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="10dp"
+            android:text="Best:"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="49dp"
+            android:layout_marginBottom="10dp"
+            android:background="#7E6083"
+            android:text="Play"
+            app:backgroundTint="#635085"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignMargins"
+        android:columnCount="4"
+        android:columnOrderPreserved="false"
+        android:rowCount="4"
+        android:rowOrderPreserved="false">
+
+        <!-- Text Views que representan las celdas del tablero -->
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="#B69B9B"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:background="#B69B9B"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:background="#B69B9B"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:background="#B69B9B"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:background="#B69B9B"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:background="#B69B9B"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:background="#B69B9B"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:background="#B69B9B"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:background="#B69B9B"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:background="#B69B9B"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:background="#B69B9B"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:background="#B69B9B"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:background="#B69B9B"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:background="#B69B9B"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:background="#B69B9B"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:background="#B69B9B"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+
+    </GridLayout>
+</LinearLayout>
