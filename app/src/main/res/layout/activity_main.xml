@@ -71,7 +71,7 @@
     <GridLayout
         android:id="@+id/gridLayout"
         android:layout_width="match_parent"
-        android:layout_height="415dp"
+        android:layout_height="match_parent"
         android:alignmentMode="alignMargins"
         android:background="#442C70"
         android:columnCount="4"
